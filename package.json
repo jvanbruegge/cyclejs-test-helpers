@@ -1,0 +1,31 @@
+{
+  "name": "cyclejs-test-helpers",
+  "version": "1.0.0",
+  "description": "A small collection of useful utilities",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -d",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvanbruegge/cyclejs-test-helpers.git"
+  },
+  "keywords": [
+    "cyclejs",
+    "testing"
+  ],
+  "author": "Jan van Brügge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jvanbruegge/cyclejs-test-helpers/issues"
+  },
+  "homepage": "https://github.com/jvanbruegge/cyclejs-test-helpers#readme",
+  "devDependencies": {
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "jsverify": "^0.8.1"
+  }
+}

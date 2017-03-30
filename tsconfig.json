@@ -1,0 +1,14 @@
+{
+    "compileOnSave": false,
+    "compilerOptions":
+    {
+        "module": "commonjs",
+        "target": "ES5",
+        "outDir": "lib/",
+        "lib": ["DOM", "ES6"]
+    },
+    "exclude": [
+        "node_modules",
+        "lib"
+    ]
+}
