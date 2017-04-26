@@ -1,6 +1,6 @@
 {
   "name": "cyclejs-test-helpers",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A small collection of useful utilities",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -26,6 +26,7 @@
     "typescript": "^2.2.2"
   },
   "dependencies": {
+    "@cycle/time": "^0.8.0",
     "jsverify": "^0.8.1"
   }
 }
