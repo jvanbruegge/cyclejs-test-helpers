@@ -1,6 +1,7 @@
 import { mockTimeSource, MockTimeSource } from '@cycle/time';
 
 export { diagramArbitrary } from './diagramArbitrary';
+export { undefinedOr } from './undefinedOr';
 
 export function promise(run : (err: any) => void) : Promise<boolean>
 {
