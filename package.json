@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/jvanbruegge/cyclejs-test-helpers#readme",
   "devDependencies": {
+    "release-it": "^2.8.2",
     "typescript": "^2.2.2"
   },
   "dependencies": {
