@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@cycle/time": "^0.8.0",
-    "jsverify": "^0.8.1"
+    "jsverify": "^0.8.1",
+    "xstream": "^10.9.0"
   }
 }
