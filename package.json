@@ -1,6 +1,6 @@
 {
   "name": "cyclejs-test-helpers",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "A small collection of useful utilities",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/jvanbruegge/cyclejs-test-helpers#readme",
   "devDependencies": {
-    "release-it": "^2.8.2",
+    "release-it": "^2.9.0",
     "typescript": "^2.2.2"
   },
   "dependencies": {
-    "@cycle/time": "^0.8.0",
-    "jsverify": "^0.8.1",
-    "xstream": "^10.9.0"
+    "@cycle/time": "*",
+    "jsverify": ">=0.8.1",
+    "xstream": "*"
   }
 }
