@@ -25,7 +25,7 @@ export function addPrevState(main : any, prevState : any) : any {
         const appSinks = main(sources);
         return {
             ...appSinks,
-            onion: xs.merge(initReducer, appSinks.onion)
+            onion: xs.merge(initReducer, appSinks.onion || xs.never())
         };
     };
 }
