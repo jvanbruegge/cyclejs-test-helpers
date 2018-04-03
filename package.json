@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/jvanbruegge/cyclejs-test-helpers#readme",
   "devDependencies": {
-    "release-it": "^2.9.0",
-    "typescript": "^2.2.2"
+    "release-it": "^7.3.0",
+    "typescript": "^2.8.1"
   },
   "dependencies": {
     "@cycle/time": "*",
-    "jsverify": ">=0.8.1",
+    "jsverify": ">=0.8.3",
     "xstream": "*"
   }
 }
