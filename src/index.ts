@@ -19,13 +19,13 @@ export function withTime(test : (Time : MockTimeSource) => void): () => Promise<
     }
 }
 
-export function addPrevState(main : any, prevState : any) : any {
+export function addPrevState(main : any, prevState : any, stateName: string = 'state'): any {
     return function(sources : any) : any {
         const initReducer = xs.of(() => prevState);
         const appSinks = main(sources);
         return {
             ...appSinks,
-            onion: xs.merge(initReducer, appSinks.onion || xs.never())
+            [stateName]: xs.merge(initReducer, appSinks[stateName] || xs.never())
         };
     };
 }
