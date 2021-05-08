@@ -9,9 +9,9 @@ export function promise(run : (err: any) => void) : Promise<boolean>
     return new Promise((resolve, reject) => run(err => err ? reject(err) : resolve(true)));
 }
 
-export function withTime(test : (Time : MockTimeSource) => void): () => Promise<boolean> {
+export function withTime(test : (Time : MockTimeSource) => void, args?: Object): () => Promise<boolean> {
     return function() {
-        const Time = mockTimeSource();
+        const Time = mockTimeSource(args);
 
         test(Time);
 
